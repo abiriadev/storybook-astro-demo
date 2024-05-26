@@ -1,0 +1,22 @@
+{
+	"name": "@storybook/astro-vite",
+	"version": "0.0.0",
+	"scripts": {
+		"build": "swc src -d dist --strip-leading-paths"
+	},
+	"exports": {
+		".": "./dist/index.js",
+		"./preset": "./dist/preset.js",
+		"./package.json": "./package.json"
+	},
+	"dependencies": {
+		"@storybook/types": "^8.1.3"
+	},
+	"devDependencies": {
+		"@storybook/builder-vite": "^8.1.3",
+		"@swc/cli": "^0.3.12",
+		"@swc/core": "^1.5.7",
+		"@types/node": "^20.12.12",
+		"typescript": "^5.4.5"
+	}
+}

@@ -1,0 +1,4 @@
+packages:
+  - renderer-astro
+  - framework-astro-vite
+  - sample
